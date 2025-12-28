@@ -1,4 +1,4 @@
-I am writing this file to define the terms I will use in my regression from scratch project.    
+I am writing this file to define the terms I will use in my regression from scratch project. (in the future i might add layers, network, activation functions etc.)  
 
 Mathematical terms:
 - x : feature
