@@ -9,9 +9,9 @@
 
 def compute_gradients(x, y, y_hat):
     """
-    x : features
-    y : targets
-    y_hat : predictions
+    x : features (list of features)
+    y : targets (list of targets)
+    y_hat : predictions (list of predictions)
     """
     m = len(y)
     grad_b = 0
