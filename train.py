@@ -7,6 +7,7 @@ b = 0
 w = 0
 
 # a fake dataset 
+# function: y = 2x + 1
 
 x = [0, 1, 2, 3, 4]
 y = [1, 3, 5, 7, 9]
@@ -36,7 +37,7 @@ for epoch in range(epochs):
     if epoch % 100 == 0:
         print(f"Epoch {epoch}, Loss: {loss}")
 
-    if loss < 0.01:
+    if loss < 0.0001:
         break    
 
 print(f"Final parameters: b = {b}, w = {w}")
